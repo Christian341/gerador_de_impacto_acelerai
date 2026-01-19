@@ -1,5 +1,0 @@
-{
-    "buildCommand": "cd next-app && npm run build",
-    "outputDirectory": "next-app/.next",
-    "installCommand": "npm install"
-}

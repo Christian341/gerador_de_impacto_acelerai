@@ -1,0 +1,274 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-01-14T21:19:45.846Z",
+  "stack": {
+    "primaryLanguage": "typescript",
+    "languages": [
+      "javascript",
+      "typescript"
+    ],
+    "frameworks": [],
+    "buildTools": [
+      "vite"
+    ],
+    "testFrameworks": [
+      "playwright"
+    ],
+    "packageManager": "npm",
+    "isMonorepo": false,
+    "hasDocker": false,
+    "hasCI": true
+  },
+  "structure": {
+    "totalFiles": 39,
+    "topDirectories": [
+      {
+        "name": "App.tsx",
+        "fileCount": 1
+      },
+      {
+        "name": "commands",
+        "fileCount": 18
+      },
+      {
+        "name": "components",
+        "fileCount": 3
+      },
+      {
+        "name": "index.html",
+        "fileCount": 1
+      },
+      {
+        "name": "index.tsx",
+        "fileCount": 1
+      },
+      {
+        "name": "mcpcontext7.json",
+        "fileCount": 1
+      },
+      {
+        "name": "metadata.json",
+        "fileCount": 1
+      },
+      {
+        "name": "package-lock.json",
+        "fileCount": 1
+      },
+      {
+        "name": "package.json",
+        "fileCount": 1
+      },
+      {
+        "name": "playwright.config.ts",
+        "fileCount": 1
+      },
+      {
+        "name": "product_requirements_document.md",
+        "fileCount": 1
+      },
+      {
+        "name": "project_backlog.md",
+        "fileCount": 1
+      },
+      {
+        "name": "README.md",
+        "fileCount": 1
+      },
+      {
+        "name": "services",
+        "fileCount": 1
+      },
+      {
+        "name": "system_documentation.md",
+        "fileCount": 1
+      },
+      {
+        "name": "technical_architecture.md",
+        "fileCount": 1
+      },
+      {
+        "name": "tests",
+        "fileCount": 1
+      },
+      {
+        "name": "tsconfig.json",
+        "fileCount": 1
+      },
+      {
+        "name": "types.ts",
+        "fileCount": 1
+      },
+      {
+        "name": "vite.config.ts",
+        "fileCount": 1
+      }
+    ],
+    "languageDistribution": [
+      {
+        "extension": ".md",
+        "count": 23
+      },
+      {
+        "extension": ".ts",
+        "count": 5
+      },
+      {
+        "extension": ".json",
+        "count": 5
+      },
+      {
+        "extension": ".tsx",
+        "count": 5
+      },
+      {
+        "extension": ".html",
+        "count": 1
+      }
+    ]
+  },
+  "architecture": {
+    "layers": [
+      {
+        "name": "Components",
+        "description": "UI components and views",
+        "directories": [
+          "components"
+        ],
+        "symbolCount": 3,
+        "dependsOn": []
+      }
+    ],
+    "patterns": [],
+    "entryPoints": [
+      "index.tsx"
+    ]
+  },
+  "symbols": {
+    "classes": [],
+    "interfaces": [
+      {
+        "name": "AgentFeedback",
+        "kind": "interface",
+        "file": "types.ts",
+        "line": 2,
+        "exported": true
+      },
+      {
+        "name": "AnalysisResult",
+        "kind": "interface",
+        "file": "types.ts",
+        "line": 14,
+        "exported": true
+      },
+      {
+        "name": "Message",
+        "kind": "interface",
+        "file": "types.ts",
+        "line": 31,
+        "exported": true
+      },
+      {
+        "name": "PersonaImpact",
+        "kind": "interface",
+        "file": "types.ts",
+        "line": 9,
+        "exported": true
+      },
+      {
+        "name": "DocumentReviewViewProps",
+        "kind": "interface",
+        "file": "components\\DocumentReviewView.tsx",
+        "line": 5,
+        "exported": false
+      },
+      {
+        "name": "HeatmapViewProps",
+        "kind": "interface",
+        "file": "components\\HeatmapView.tsx",
+        "line": 4,
+        "exported": false
+      },
+      {
+        "name": "ReportDashboardProps",
+        "kind": "interface",
+        "file": "components\\ReportDashboard.tsx",
+        "line": 6,
+        "exported": false
+      }
+    ],
+    "functions": [],
+    "types": [
+      {
+        "name": "AppTab",
+        "kind": "type",
+        "file": "App.tsx",
+        "line": 8,
+        "exported": false
+      }
+    ],
+    "enums": []
+  },
+  "publicAPI": [
+    {
+      "name": "AgentFeedback",
+      "kind": "interface",
+      "file": "types.ts",
+      "line": 2,
+      "exported": true
+    },
+    {
+      "name": "AnalysisResult",
+      "kind": "interface",
+      "file": "types.ts",
+      "line": 14,
+      "exported": true
+    },
+    {
+      "name": "Message",
+      "kind": "interface",
+      "file": "types.ts",
+      "line": 31,
+      "exported": true
+    },
+    {
+      "name": "PersonaImpact",
+      "kind": "interface",
+      "file": "types.ts",
+      "line": 9,
+      "exported": true
+    }
+  ],
+  "dependencies": {
+    "mostImported": [
+      {
+        "file": "C:\\Users\\Administradorr\\Documents\\códigos\\simulador-de-impacto---auditoria-de-criativos (1)\\types.ts",
+        "importedBy": 4
+      },
+      {
+        "file": "C:\\Users\\Administradorr\\Documents\\códigos\\simulador-de-impacto---auditoria-de-criativos (1)\\App.tsx",
+        "importedBy": 1
+      },
+      {
+        "file": "C:\\Users\\Administradorr\\Documents\\códigos\\simulador-de-impacto---auditoria-de-criativos (1)\\services\\geminiService.ts",
+        "importedBy": 1
+      },
+      {
+        "file": "C:\\Users\\Administradorr\\Documents\\códigos\\simulador-de-impacto---auditoria-de-criativos (1)\\components\\ReportDashboard.tsx",
+        "importedBy": 1
+      },
+      {
+        "file": "C:\\Users\\Administradorr\\Documents\\códigos\\simulador-de-impacto---auditoria-de-criativos (1)\\components\\DocumentReviewView.tsx",
+        "importedBy": 1
+      },
+      {
+        "file": "C:\\Users\\Administradorr\\Documents\\códigos\\simulador-de-impacto---auditoria-de-criativos (1)\\components\\HeatmapView.tsx",
+        "importedBy": 1
+      }
+    ]
+  },
+  "stats": {
+    "totalSymbols": 8,
+    "exportedSymbols": 4,
+    "analysisTimeMs": 381
+  }
+}

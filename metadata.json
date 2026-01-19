@@ -1,0 +1,7 @@
+{
+  "name": "Simulador de Impacto - Auditoria de Criativos",
+  "description": "Uma ferramenta de auditoria de criativos que utiliza agentes sintéticos para analisar peças publicitárias, gerando scores de impacto, mapas de calor e insights estratégicos.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
